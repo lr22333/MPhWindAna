@@ -1,24 +1,56 @@
-This is free and unencumbered software released into the public domain.
+# Non-Commercial Academic License
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Copyright (c) 2026 ElectroMagnetic, Multiphysics Optimization and intelligent contRol Team
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+Permission is hereby granted, free of charge, to any individual or organization for personal, educational, and academic research purposes to use, copy, modify, and distribute this software, subject to the following conditions:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+1. **Permitted Use**
 
-For more information, please refer to <https://unlicense.org>
+   The software may be freely used for:
+
+   * Personal use;
+   * Educational and teaching purposes;
+   * Academic and scientific research;
+   * Non-commercial experiments, analysis, and development;
+   * Non-commercial modification and redistribution.
+
+2. **Attribution**
+
+   Any redistribution or publication based on this software must retain the original copyright notice and this license.
+
+   When the software or substantial portions of the software are used in academic publications, presentations, or other scholarly works, users are requested to appropriately cite the original project or related publications, if applicable.
+
+3. **Prohibited Commercial Use**
+
+   Without prior written permission from the copyright holder, the software may not be:
+
+   * Used for commercial purposes;
+   * Incorporated into commercial products or services;
+   * Used in commercial software, hardware, or engineering projects;
+   * Used to provide commercial services or consulting;
+   * Sold, licensed, or otherwise distributed for commercial benefit;
+   * Used by an organization for internal commercial or profit-generating activities.
+
+4. **Derivative Works**
+
+   Modified or derivative versions of this software may be created and distributed for personal, educational, and academic research purposes, provided that they remain subject to the same non-commercial restrictions and retain appropriate attribution to the original software.
+
+5. **No Sublicensing**
+
+   This license does not grant the right to sublicense, relicense, or otherwise grant commercial rights to the software or derivative works.
+
+6. **No Trademark Rights**
+
+   This license does not grant any rights to use the names, trademarks, logos, or other branding associated with the copyright holder or the project.
+
+7. **Disclaimer of Warranty**
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. **Commercial Licensing**
+
+   Commercial use may be permitted only with prior written authorization from the copyright holder. Parties interested in obtaining commercial rights should contact the copyright holder for separate licensing terms.
+
+By using, copying, modifying, or distributing this software, you agree to the terms of this license.
