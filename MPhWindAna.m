@@ -1192,25 +1192,31 @@ methods
     %% Plot winding MMF.
     function MMFPlot(obj)
         SlotMMF = obj.SlotMMF;
-        SlotMMF = SlotMMF(:, 1);
+        SlotMMF = SlotMMF(:,1);
         NoS = obj.NoS;
-        SlotNumber = (1:NoS).';
-        figure('Name', 'MMF', 'NumberTitle', 'off', 'Color', 'w');
-        set(gcf, 'Units', 'centimeters');
-        set(gcf, 'Position', [0 0 12 8]);
-        movegui(gcf, 'center');
-        stairs(SlotNumber, SlotMMF, 'LineWidth', 1.2);
+        t = obj.t;
+        NoSUnit = NoS/t;
+        NoSUnit = round(NoSUnit);
+        SlotNumber = (1:NoSUnit).';
+        XEnd = NoSUnit;
+        XMargin = 1;
+        SlotMMF = SlotMMF(1:NoSUnit);
+        figure('Name','MMF','NumberTitle','off','Color','w');
+        set(gcf,'Units','centimeters');
+        set(gcf,'Position',[0 0 12 8]);
+        movegui(gcf,'center');
+        stairs(SlotNumber,SlotMMF,'LineWidth',1.2);
         grid on;
         box on;
         ax = gca;
         ax.FontName = 'Times New Roman';
         ax.FontSize = 12;
         ax.LineWidth = 1;
-        ax.XLim = [.5 NoS/obj.t+0.5];
-        ax.YLim = [1.1 * min(SlotMMF), 1.1 * max(SlotMMF)];
+        ax.XLim = [0.5 XEnd + XMargin];
+        ax.YLim = [1.1*min(SlotMMF),1.1*max(SlotMMF)];
         ax.XTick = SlotNumber;
-        xlabel('Slot Number', 'FontName', 'Times New Roman', 'FontSize', 12);
-        ylabel('MMF', 'FontName', 'Times New Roman', 'FontSize', 12);
+        xlabel('Slot Number','FontName','Times New Roman','FontSize',12);
+        ylabel('MMF','FontName','Times New Roman','FontSize',12);
     end
     %% Calculate winding MMF harmonics.
     function SlotMMFHar = get.SlotMMFHar(obj)
